@@ -1,11 +1,12 @@
 <template>
-  <div>
-  </div>
+  <section>
+    SECTION
+  </section>
 </template>
 
 <script>
 export default {
-
+name
 }
 </script>
 
