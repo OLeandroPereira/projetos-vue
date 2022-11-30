@@ -24,7 +24,6 @@
     </v-img>
     </v-flex>
 
-    
 
   </v-layout>
 
