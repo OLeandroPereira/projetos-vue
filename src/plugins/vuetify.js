@@ -9,7 +9,8 @@ Vue.use(Vuetify, {
     error: '#ff5252',
     info: '#2196f3',
     success: '#4caf50',
-    warning: '#ffc107'
+    warning: '#ffc107',
+    purple: '#4E2A97'
   },
   customProperties:true,
   iconfont: 'md',

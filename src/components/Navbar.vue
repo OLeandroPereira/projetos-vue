@@ -1,13 +1,13 @@
 <template>
   <nav>
-    <v-toolbar flat app class="mx-16">
+    <v-toolbar flat app class="mb-13 pa-xl-4">
     <v-img
           alt="Insure Logo"
-          class="shrink mr-2 pa-14"
+          class="shrink mr-2"
           contain
           src="https://insure-landing-page-flax.vercel.app/img/logo.1bc452ac.svg"
           width="150"
-          height="200"
+          height="300"
     />
     
       <v-spacer></v-spacer>
