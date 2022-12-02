@@ -25,20 +25,99 @@
         </v-img>
       </v-col>
     </v-card>
-    <v-col cols="12" md="12">
-    
-    <div style="display-flex: justify-content">
-      <div style="width:400px; border-top: 1px solid; font-family: DMSerif; margin: 30vh 0 0 20vh; font-size: 30px">
-      <div>
-        <h1>We’re different</h1>
-      </div>
+  
+    <div style="width:330px; border-top: 1px solid; margin: 30vh 0 0 20vh; font-family: DMSerif; font-size: 25px">
+      <h1>We’re different</h1>
     </div>
-  </div>
 
-      
-    </v-col>
-    
-    
+    <v-container class="mt-16">
+        <v-layout justify-end class="pa-10">
+          <v-flex xs3>
+            <v-card style="height: 300px" flat>
+              <v-card-text style="text-align: center">
+                <v-avatar 
+                class="mb-5"
+                color="#4566"
+                size="75"
+                >
+                  <v-icon 
+                  dark
+                  size="75"
+                  >
+                    mdi-account-circle
+                  </v-icon>
+                </v-avatar>
+                <h3 class="mb-5" color="white">Snappy Process</h3>
+                <p>Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.</p> 
+              </v-card-text>
+            </v-card>
+          </v-flex>
+          <v-flex xs3>
+            <v-card style="height: 300px" flat>
+              <v-card-text style="text-align: center">
+                <v-avatar 
+                class="mb-5"
+                color="#4566"
+                size="75"
+                >
+                  <v-icon 
+                  dark
+                  size="75"
+                  >
+                    mdi-account-circle
+                  </v-icon>
+                </v-avatar>
+                <h3 class="mb-5" color="white">Affordable Prices</h3>
+                <p>We don’t want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.</p> 
+              </v-card-text>
+            </v-card>
+          </v-flex>
+          <v-flex xs3>
+            <v-card style="height: 300px" flat>
+              <v-card-text style="text-align: center">
+                <v-avatar 
+                class="mb-5"
+                color="#4566"
+                size="75"
+                >
+                  <v-icon 
+                  dark
+                  size="75"
+                  >
+                    mdi-account-circle
+                  </v-icon>
+                </v-avatar>
+                <h3 class="mb-5" color="white">People First</h3>
+                <p>Our plans aren’t full of conditions and clauses to prevent payouts. We make sure you’re covered when you need it.</p>
+              </v-card-text>
+            </v-card>
+          </v-flex>
+        </v-layout>
+      </v-container>
+
+      <v-container class="mt-16">
+        <v-layout justify-end class="pa-10" align-center>
+          <v-flex xs6>
+            <v-card flat style="background: #2d2640">
+              <div style="width:430px; font-family: DMSerif; font-size: 25px; margin-left: 120px">
+                <h1>Find out more about how we work</h1>
+              </div>
+            </v-card>
+          </v-flex>
+          
+          <v-flex xs3 text-end>
+            <div style="background: #2d2640" height="100px">
+              <v-btn
+              class="ma-14"
+              outlined
+            >
+              HOW WE WORK
+            </v-btn>
+            </div>
+            
+          </v-flex>
+        </v-layout>
+      </v-container>
   </div>
 </template>
 
