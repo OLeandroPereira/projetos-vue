@@ -7,11 +7,12 @@
         color="#2d2640"
       >
       <div style="margin: 100px 180px; padding: 0 30px 0; text-align: center">
-        <h1 style="font-family: DMSerif; font-size: 60px; margin: 20px">Humanizing your insurance.</h1>
-        <p>Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that’s right for you. Ensure you and your loved ones are protected.</p>
+        <h1 style="font-family: DMSerif; font-size: 60px; margin: 20px; color: white">Humanizing your insurance.</h1>
+        <p style="color: white">Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that’s right for you. Ensure you and your loved ones are protected.</p>
         <v-btn
         class="ma-2"
         outlined
+        color="white"
       >
         VIEW PLANS
       </v-btn>
@@ -26,7 +27,7 @@
       </v-col>
     </v-card>
   
-    <div style="width:330px; border-top: 1px solid; margin: 30vh 0 0 20vh; font-family: DMSerif; font-size: 25px">
+    <div style="width:330px; border-top: 1px solid; margin: 30vh 0 0 27vh; font-family: DMSerif; font-size: 25px">
       <h1>We’re different</h1>
     </div>
 
@@ -96,20 +97,22 @@
       </v-container>
 
       <v-container class="mt-16">
-        <v-layout justify-end class="pa-10" align-center>
-          <v-flex xs6>
+        <v-layout justify-center class="mb-16">
+          <v-flex xs8>
             <v-card flat style="background: #2d2640">
-              <div style="width:430px; font-family: DMSerif; font-size: 25px; margin-left: 120px">
+              <div style="width:430px; height: 242px; font-family: DMSerif; font-size: 25px; margin-left: 120px; color: white">
                 <h1>Find out more about how we work</h1>
               </div>
             </v-card>
+            
           </v-flex>
           
           <v-flex xs3 text-end>
-            <div style="background: #2d2640" height="100px">
+            <div style="background: #2d2640">
               <v-btn
-              class="ma-14"
+              style="margin: 103px"
               outlined
+              color="white"
             >
               HOW WE WORK
             </v-btn>
