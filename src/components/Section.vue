@@ -25,8 +25,17 @@
         </v-img>
       </v-col>
     </v-card>
-    <v-col cols="12" md="10">
-      <h1>We’re different</h1>
+    <v-col cols="12" md="12">
+    
+    <div style="display-flex: justify-content">
+      <div style="width:400px; border-top: 1px solid; font-family: DMSerif; margin: 30vh 0 0 20vh; font-size: 30px">
+      <div>
+        <h1>We’re different</h1>
+      </div>
+    </div>
+  </div>
+
+      
     </v-col>
     
     
